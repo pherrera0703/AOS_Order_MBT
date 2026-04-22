@@ -1,4 +1,4 @@
-﻿AIUtil.SetContext Browser("creationtime:=3")
+﻿AIUtil.SetContext Browser("creationtime:=0")
 OrderNumber = Parameter ("aOrderNumber")
 AIUtil("profile", micAnyText, micFromTop, 1).Click
 AIUtil.FindTextBlock("My orders").Click

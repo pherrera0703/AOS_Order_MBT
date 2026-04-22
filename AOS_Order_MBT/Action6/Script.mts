@@ -1,4 +1,4 @@
-﻿AIUtil.SetContext Browser("creationtime:=3")
+﻿AIUtil.SetContext Browser("creationtime:=0")
 
 AIUtil("button", "NEXT").Click
 If not AIUtil.FindTextBlock("MasterCredit *kkk kkk*").Exist (2) Then
