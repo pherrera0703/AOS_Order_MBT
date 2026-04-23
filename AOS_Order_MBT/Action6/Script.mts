@@ -17,4 +17,5 @@ AIUtil.SetContext Browser("creationtime:=0")
 OrderNumber = Split (AIUtil.FindTextBlock(micAnyText, micWithAnchorBelow, AIUtil.FindTextBlock("Order Summary")).GetText, " ")(4)
 ' OrderNumber = Split (AIUtil.FindTextBlock(micAnyText, micWithAnchorOnLeft, AIUtil("button", "Thank you for buying with Advantage")).GetText, " ")(4)
 aOrderNumberOut = OrderNumber
+print OrderNumber
 
