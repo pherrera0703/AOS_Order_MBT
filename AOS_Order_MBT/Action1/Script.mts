@@ -1,9 +1,8 @@
-﻿
-SystemUtil.Run "Chrome.exe","","","",3
+﻿SystemUtil.Run "Chrome.exe","","","",3
 Set oContext = Browser("creationtime:=0")
 wait 2
 oContext.ClearCache
-oContext.Navigate dt.value("URL")
+oContext.Navigate "https://advantageonlineshopping.com/#/"
 oContext.Sync
 oContext.Maximize
 wait 5
